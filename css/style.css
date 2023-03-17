@@ -1,0 +1,524 @@
+body
+{
+    margin: 0%;
+    padding: 0%;
+}
+/* main section---------------- */
+.main-section
+{
+    width:100%;
+    height: auto;
+}
+
+/* left section start here-------------- */
+/* header section start here-------------- */
+ .header-section
+{
+    background-color: #680A83;
+    clip-path: polygon(26% 17%,78% 17%,100% 17%,100% 72%,70% 72%,8% 72%,0% 100%,0% 17%);
+    padding-top: 45px;
+    padding-bottom: 60px;
+    margin-top: -40px;
+ 
+}
+/* chat icon---------- */
+.chat-icon
+{
+    font-size: 45px;
+    color: white;
+   
+ 
+}
+/* brand section--------------- */
+.brand-section
+{
+    margin-left: 50px;
+    margin-bottom: 25px;
+   
+   
+}
+/* brand name--------- */
+.brand-name
+{
+    margin-left: 20px;
+}
+/* brand name1------------------- */
+.brand-name1
+{
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    font-weight: 700;
+    
+}
+/* dot section------------ */
+.dot
+{
+    margin-left: 170px;
+    font-size: 30px;
+   margin-top: 10px;
+   color: #F6A977;
+}
+
+/* brand link section ---------------- */
+.brand-link-section
+{
+margin-left: 40px;
+}
+
+/* brand links start here-------------- */
+.brand-links
+{
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+}
+
+/* brand link-------------------- */
+.brand-link1
+{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+.brand-link2
+{
+    text-decoration: none;
+    color:#F6A977;
+    font-size: 20px;
+}
+.header-sub-section
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: -5px;
+}
+/* header section end here-------------- */
+
+
+
+/* chat section start here----------------------- */
+.chat-section
+{
+    background-color: #FBFBFB;
+    overflow: hidden;
+    box-sizing: border-box;
+    margin-top: -70px;
+    padding-top: 30px;
+   
+} 
+.plus
+{
+    background-color: white;
+    border-radius: 20px;
+    margin-left: 5px;
+}
+.plus-icon
+{
+    font-size: 40px;
+    color:#F6A977;
+    
+}
+.search
+{
+    margin-left: 34px;
+    border-radius: 25px;
+    padding: 8px 210px 8px 10px;
+    border: none;
+    background-color: rgb(243, 243, 243);
+}
+.search:focus
+{
+  outline: none;
+  border-color: #F6A977;
+  box-shadow: 0 0 10px #F6A977;
+}
+.all-chats
+{
+    height: 550px;
+    overflow: auto;
+   
+}
+
+/* person------------------- */
+.person
+{
+    background-color: white;
+    box-shadow: 0 0.5em 1em -0.125em rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.02);
+    border-radius: 10px;
+    cursor: pointer;
+}
+.person:hover
+{
+    background-color: rgb(235, 235, 235);
+}
+span
+{
+    width: 13px;
+    height: 13px;
+    background-color: rgb(2, 208, 2);
+    border-radius: 50%;
+    border: 2px solid white;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+/* person1--------------- */
+.person-button1
+{
+    position: relative;
+    width: 55px;
+    height: 55px;
+    background-image: url(../img/p1.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+}
+.span1
+{
+    width: 13px;
+    height: 13px;
+    background-color: rgb(2, 208, 2);
+    border-radius: 50%;
+    border: 2px solid white;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+
+
+/* person2--------------- */
+.person-button2
+{
+    position: relative;
+    width: 55px;
+    height: 55px;
+    background-image: url(../img/p2.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+}
+.span2
+{
+    width: 13px;
+    height: 13px;
+    background-color: red;
+    border-radius: 50%;
+    border: 2px solid white;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+
+
+/* person3--------------- */
+.person-button3
+{
+    position: relative;
+    width: 55px;
+    height: 55px;
+    background-image: url(../img/p3.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+}
+.span3
+{
+    width: 13px;
+    height: 13px;
+    background-color: red;
+    border-radius: 50%;
+    border: 2px solid white;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+
+
+/* person4--------------- */
+.person-button4
+{
+    position: relative;
+    width: 55px;
+    height: 55px;
+    background-image: url(../img/p4.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+}
+
+/* person5--------------- */
+.person-button5
+{
+    position: relative;
+    width: 55px;
+    height: 55px;
+    background-image: url(../img/p5.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+}
+.span4
+{
+    width: 13px;
+    height: 13px;
+    background-color: rgb(207, 207, 207);
+    border-radius: 50%;
+    border: 2px solid white;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+
+
+/* person6--------------- */
+.person-button6
+{
+    position: relative;
+    width: 55px;
+    height: 55px;
+    background-image: url(../img/p6.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+}
+
+/* person7--------------- */
+.person-button7
+{
+    position: relative;
+    width: 55px;
+    height: 55px;
+    background-image: url(../img/p2.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+}
+
+/* person8--------------- */
+.person-button8
+{
+    position: relative;
+    width: 55px;
+    height: 55px;
+    background-image: url(../img/p1.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+}
+.span5
+{
+    width: 13px;
+    height: 13px;
+    background-color: rgb(207, 207, 207);
+    border-radius: 50%;
+    border: 2px solid white;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+/* person------------------- */
+
+/* chat section end here----------------------- */
+/* left section end here-------------- */
+
+/* middle section start here-------------------- */
+.about-person
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.about-person-img
+{
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+}
+.name-img
+{
+    display: flex;
+    gap: 18px;
+}
+.call-system
+{
+    display: flex;
+    gap: 7px;
+    margin-top: 10px;
+}
+
+.option-all
+{
+color: rgb(173, 173, 173);
+border: 2px solid rgb(234, 234, 234);
+padding: 6px 12px 6px 12px;
+border-radius: 5px;
+font-size: 16px;
+}
+.option-all:hover
+{
+    background-color: rgb(244, 244, 244);
+}
+.messings
+{
+    height: 550px;
+    overflow: auto;
+}
+.messing-lists1
+{
+    display: flex;
+    justify-content: start;
+}
+.messing-lists2
+{
+    display: flex;
+    justify-content: end;
+   
+}
+.first-msg
+{
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    border-radius: 17px;
+    padding: 8px 12px 8px 12px;
+}
+.first-msg1
+{
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    border-radius: 17px;
+    padding: 8px 12px 8px 12px;
+    background-color: #F6A977;
+}
+.last-time
+{
+    font-size: 13px;
+     font-weight: 400;
+}
+.double-check
+{
+    color: rgb(5, 198, 5);
+}
+.type-section
+{
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    padding: 7px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.type-box-search
+{
+    padding: 5px 360px 5px 10px;
+    border-radius: 20px;
+    border: 1px solid rgb(174, 174, 174);
+    margin-right: 8px;
+}
+.send-file-icon
+{
+    font-size: 25px;
+    color: rgb(196, 196, 196);
+    margin: 4px;
+}
+.send-file-icon1
+{
+    font-size: 16px;
+    color:#ffffff;
+    background-color: #F6A977;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+/* modal start here--------------- */
+.main-modal 
+{
+    background: #03001e;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #fdeff9, #ec38bc, #7303c0, #03001e);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #fdeff9, #ec38bc, #7303c0, #03001e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+padding: 40px!important;
+border-radius: 15px;
+
+}
+.modal-img
+{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+.modal-icon1
+{
+    font-size: 30px;
+    border-radius: 50%;
+    background-color: green;
+    color: white;
+    margin: 20px;
+    padding: 20px;
+}
+.modal-icon2
+{
+    font-size: 30px;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+    margin: 20px;
+    padding: 20px;
+}
+/* modal end here--------------- */
+/* middle section end here-------------------- */
+
+
+/* right section start hree----------------- */
+.cross1
+{
+    border: 1px solid rgb(190, 190, 190);
+    padding: 5px 15px 5px 15px;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: 195px;
+
+    
+}
+.cross1:hover
+{
+    background-color: rgb(239, 239, 239) ;
+}
+.setting-img1
+{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.media-img
+{
+    gap: 10px;
+}
+.block-icon
+{
+    color: rgb(152, 152, 152);
+   
+}
+.reprt-del
+{
+    color: red;
+}
+.rd
+{
+    color: red;
+}
+/* right section end hree----------------- */
+
